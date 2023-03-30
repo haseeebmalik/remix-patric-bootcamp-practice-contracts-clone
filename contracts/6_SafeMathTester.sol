@@ -10,6 +10,6 @@ contract SafeMathTester {
     uint8 public bigNumber=255;//checked
 
     function add() public {
-        unchecked { bigNumber =bigNumber=1;}
+        unchecked { bigNumber =bigNumber+1;}
     }
 }

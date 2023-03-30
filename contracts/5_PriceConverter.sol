@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
 
-// a library can also have state variables and can send ethers
+// a library cannot  have state variables and can send ethers
 // All the functions in a library are internal.
 library PriceConverter {
 
