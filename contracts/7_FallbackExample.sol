@@ -7,7 +7,7 @@
      receive() external payable{
          result=1;
      }
- //In calldata there is actually functions ,so if you dont specify a wrong function and give some wrong call data ,solidity will take you to fallBack function.
+ //In calldata there is actually functions ,so if you  specify a wrong function and give some wrong call data ,solidity will take you to fallBack function.
      fallback() external payable {
          result=2;
      }
